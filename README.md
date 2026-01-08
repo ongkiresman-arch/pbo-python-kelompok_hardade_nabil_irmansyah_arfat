@@ -21,33 +21,86 @@ pada projek ini beberapa tools atau module dan software yang harus ada pada mesi
 Tidak membutuhkan library tambahan (menggunakan Python standar)
 6.browser(Microsoft Edge)
 ## How to Use/Bagaimana Menggunkan Projek ini
- 1️⃣ Buka Proyek di Visual Studio Code
-1. Buka folder project **Portal Kelas PBO** di Visual Studio Code
-2. Pastikan file `portal_kelas.py` ada di dalam folder project
- 2️⃣ Buka Folder Proyek di Command Prompt (CMD)
-1. Di Visual Studio Code atau File Explorer,copy path folder project
-2. BukaCommand Prompt (CMD)
-3. Masuk ke folder project dengan perintah:
-   python C:\Users\user\Documents\Projek_Portal_Kelas\Projek_Portal_Kelas
-   Lalu Klik Enter
- 4️⃣ Tampilan Program
-Setelah program dijalankan, akan muncul menu utama:
-1.Login Mahasiswa
-2.Login Dosen
-3.Keluar
- 5️⃣ Login Mahasiswa
-1.Pilih menu Login Mahasiswa
-2.Masukkan NIM mahasiswa yang tersedia
-3.Mahasiswa dapat:
-        Melihat informasi diri
-        Melihat kelas
-        Melihat nilai
- 6️⃣ Login Dosen
-1.Pilih menu Login Dosen
-2.Masukkan password dosen:
-                     admin123
-Dosen dapat:
-         Melihat info dosen
-         Menginput nilai mahasiswa
- 7️⃣ Keluar Program
-Pilih menu Keluar untuk menutup aplikasi.
+ 1️⃣ Buka Projek di Visual Studio Code
+
+Buka folder Projek_Portal_Kelas menggunakan Visual Studio Code
+
+Pastikan file berikut ada:
+
+main.py
+
+buku.py
+
+perpustakaan.py
+
+2️⃣ Buka Folder Projek di Command Prompt (CMD)
+
+Copy path folder project
+
+Buka Command Prompt (CMD)
+
+Masuk ke folder project dengan perintah:
+
+cd C:\Users\user\Documents\Projek_Portal_Kelas
+
+3️⃣ Jalankan Program
+
+Gunakan perintah berikut:
+
+python main.py
+
+
+Lalu tekan Enter.
+
+4️⃣ Tampilan Program
+
+Setelah program dijalankan, sistem akan menampilkan output data yang berasal dari:
+
+Class Buku
+
+Class Perpustakaan
+
+Contoh fungsi yang dijalankan:
+
+Menambahkan buku
+
+Menampilkan daftar buku
+
+Menampilkan status buku
+
+🧠 Penjelasan Singkat File
+📄 buku.py
+
+Berisi class Buku yang menyimpan:
+
+Kode buku
+
+Judul buku
+
+Penulis
+
+Status buku
+
+📄 perpustakaan.py
+
+Berisi class Perpustakaan yang berfungsi untuk:
+
+Menyimpan daftar buku
+
+Menambahkan buku
+
+Menampilkan data buku
+
+📄 main.py
+
+Merupakan file utama:
+
+Menghubungkan semua class
+
+Menjalankan alur program
+
+Menampilkan output ke console
+
+🚪 Keluar Program
+
+Program akan berhenti secara otomatis setelah semua perintah dijalankan.
